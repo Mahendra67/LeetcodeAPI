@@ -4,10 +4,10 @@ const cors = require("cors");
 const app = express();
 
 const port = process.env.PORT || 5000;
-
+/*Just change origin if you want to fetch from another address. Or Change it to * so that every add can request from it.*/
 app.use(
   cors({
-    origin: "https://devfoliomoonman369.netlify.app",
+    origin: "https://mahendra67.github.io/leetcodeApiTest.github.io/",
   })
 );
 
