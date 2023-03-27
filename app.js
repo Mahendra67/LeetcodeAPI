@@ -15,7 +15,7 @@ app.get("/", (req, resp) => {
   resp.status(404).json({
     status: "error",
     message:
-      "please enter your username (eg: https://leetcode-api.cyclic.app/moonman369)",
+      "please enter your username (eg: https://leetcode-stats-api.cyclic.app/{USERNAME_HERE})",
   });
 });
 
